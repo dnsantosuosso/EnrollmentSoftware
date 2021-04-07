@@ -505,13 +505,13 @@ void enterNew(struct db_type * pArr[SIZE]){
     
     if (overlap){
         // strcpy(stud[counter].status, "ATTENTION! time conflict\n");
-        strcpy(stud[counter].status, "ATTENTION! time conflict\n");
-        printf("ATTENTION! time conflict\n");
+        strcpy(stud[counter].status, "ATTENTION! time conflict");
+        printf("ATTENTION! time conflict");
     }
     else{
         // strcpy(stud[counter].status, "SUCCESSFUL! no time conflict\n");
-        strcpy(stud[counter].status, "SUCCESSFUL! no time conflict\n");
-        printf("SUCCESSFUL! no time conflict\n");
+        strcpy(stud[counter].status, "SUCCESSFUL! no time conflict");
+        printf("SUCCESSFUL! no time conflict");
     }
 
     //add name to student struct
